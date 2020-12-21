@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+    <!-- Плагины для обратной связи -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.jgrowl.css">
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- main style-->
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__menu">
+                <input id="menu-toggle" class="menu-toggle" type="checkbox">
+                <label class="menu-toggle-container" for="menu-toggle">
+                    <span class="menu-button menu-button-toggle"></span>
+                    <span class="menu-wrapper"></span>
+                    <!-- svg hamburger - responsive-->
+                    <svg class="inline-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	                width="50px" height="50px" viewBox="0 0 32 22.5" enable-background="new 0 0 32 22.5" xml:space="preserve">
+                        <title></title>
+                        <g class="svg-menu-toggle">
+                        <path class="bar" d="M20.945,8.75c0,0.69-0.5,1.25-1.117,1.25H3.141c-0.617,0-1.118-0.56-1.118-1.25l0,0
+                            c0-0.69,0.5-1.25,1.118-1.25h16.688C20.445,7.5,20.945,8.06,20.945,8.75L20.945,8.75z">
+                        </path>
+                        <path class="bar" d="M20.923,15c0,0.689-0.501,1.25-1.118,1.25H3.118C2.5,16.25,2,15.689,2,15l0,0c0-0.689,0.5-1.25,1.118-1.25 h16.687C20.422,13.75,20.923,14.311,20.923,15L20.923,15z">
+                        </path>
+                        <path class="bar" d="M20.969,21.25c0,0.689-0.5,1.25-1.117,1.25H3.164c-0.617,0-1.118-0.561-1.118-1.25l0,0
+                            c0-0.689,0.5-1.25,1.118-1.25h16.688C20.469,20,20.969,20.561,20.969,21.25L20.969,21.25z">
+                        </path>
+                        <rect width="24" height="50" fill="none">
+                        </rect>
+                        </g>
+		            </svg>
+			    </label>
+                <img src="img/logo.png" class="header--logo" alt="Логотип" width="136">
+                <nav class="nav-top">
+                    <ul>
+                        <li><a href="#main">Главная</a></li>
+                        <li><a href="#work--navigation">Принцип работы</a></li>
+                        <li><a href="#application">Применение</a></li>
+                        <li><a href="#catalog">Каталог продукции</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                        <li><a href="#about">О компании</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <a href="#contacts" class="header--btn-contact">Заказать звонок</a>
+        </div>
+    </header>
+    <main id="main" class="clearfix">
+        <section class="container clearfix home">
+            <h1 class="main-title">Энергосберегающее оборудование</h1>
+            <img class="home--map" src="img/home-map.png" width="1170" alt="Карта">
+            <div id="work--navigation"></div>
+            <div id="work" class="work">
+                <h2 class="main-title">Принцип работы</h2>
+                <img class="work--img" src="img/work-pic.png" width="306" alt="Принцип работы">
+                <div class="work__textblock">
+                    <ul class="work__list">
+                        <li class="work__list--item">Тёплый воздух от греющего плинтуса, медленно поднимаясь по стене, равномерно ее прогревает.</li>
+                        <li class="work__list--item">Стены начинают генерировать тепло, которое распространяется по помещению, даря комфорт и уют.</li>
+                        <li class="work__list--item">Внутри образуется тепловой экран, не образующий тепловой подушки под потолком. Тепловой экран позволяет:
+                            <ul class="work__sub-list">
+                                <li class="work__sub-list--item">не дать теплу прогретого объема воздуха в помещении уйти на улицу</li>
+                                <li class="work__sub-list--item">препятствовать проникновению холода в дом</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="application" class="application">
+            <div class="container clearfix">
+                <h2 class="main-title">Применение</h2>
+                <div class="application__block block-item-1">
+                    <div class="application--big-item big-item-1">
+                        <p class="application--big-p">Жилые помещения</p>
+                    </div>
+                    <div class="application__item item-correct-1">
+                        <p class="application--item-p">Квартиры</p>
+                    </div>
+                    <div class="application__item item-correct-2">
+                        <p class="application--item-p">Остекление</p>
+                    </div>
+                    <div class="application__item item-correct-3">
+                        <p class="application--item-p">Дачи, бани</p>
+                    </div>
+                    <div class="application__item item-correct-4">
+                        <p class="application--item-p">Загородные дома</p>
+                    </div>
+                    <div class="application__item item-correct-5">
+                        <p class="application--item-p">Коттеджи</p>
+                    </div>
+                </div>
+                <div class="application__block block-item-2">
+                    <div class="application--big-item big-item-2">
+                        <p class="application--big-p">Коммерческие объекты</p>
+                    </div>
+                    <div class="application__item item-correct-1">
+                        <p class="application--item-p">Офисы</p>
+                    </div>
+                    <div class="application__item item-correct-2">
+                        <p class="application--item-p">Магазины</p>
+                    </div>
+                    <div class="application__item item-correct-3">
+                        <p class="application--item-p">Рестораны</p>
+                    </div>
+                    <div class="application__item item-correct-4">
+                        <p class="application--item-p">Гостиницы</p>
+                    </div>
+                    <div class="application__item item-correct-5">
+                        <p class="application--item-p">Спортивные объекты</p>
+                    </div>
+                </div>
+                <div class="application__block block-item-3">
+                    <div class="application--big-item big-item-3">
+                        <p class="application--big-p">Культовые сооружения</p>
+                    </div>
+                    <div class="application__item item-correct-1">
+                        <p class="application--item-p">Церкви</p>
+                    </div>
+                    <div class="application__item item-correct-2">
+                        <p class="application--item-p">Соборы</p>
+                    </div>
+                    <div class="application__item item-correct-3">
+                        <p class="application--item-p">Синагоги</p>
+                    </div>
+                    <div class="application__item item-correct-4">
+                        <p class="application--item-p">Мечети</p>
+                    </div>
+                    <div class="application__item item-correct-5">
+                        <p class="application--item-p">Часовни</p>
+                    </div>
+                </div>
+                <div class="application__block block-item-4">
+                    <div class="application--big-item big-item-4">
+                        <p class="application--big-p">Промышленные объекты</p>
+                    </div>
+                    <div class="application__item item-correct-1">
+                        <p class="application--item-p">Заводы</p>
+                    </div>
+                    <div class="application__item item-correct-2">
+                        <p class="application--item-p">Склады</p>
+                    </div>
+                    <div class="application__item item-correct-3">
+                        <p class="application--item-p">Вокзалы, аэропорты</p>
+                    </div>
+                    <div class="application__item item-correct-4">
+                        <p class="application--item-p">Строительные объекты</p>
+                    </div>
+                    <div class="application__item item-correct-5">
+                        <p class="application--item-p">Фермерские хозяйства</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="catalog" class="catalog clearfix">
+            <div class="container">
+                <h2 class="main-title">Каталог продукции</h2>
+                <div class="catalog__list clearfix">
+                    <article class="card card--first">
+                        <div class="card__wrap"><img src="img/catalog-item-1.png" alt="Картинка товара" width="317"></div>
+                        <h3 class="card--title">МЕГАДОР Комфорт</h3>
+                        <div class="card__icon">
+                            <div class="card__icon-color"></div>
+                            <div class="card__icon-ip"></div>
+                        </div>
+                        <p class="card--text-block">Обогреватели МЕГАДОР этой серии идеально подойдут для отопления жилого помещения. Возможность плавной регулировки мощности позволяет настроить комфортную температуру в комнате, коридоре или лоджии.</p>
+                        <div class="card__list">
+                            <div class="card__item card__item--left">
+                                <p class="card__item--name">Комфорт-100</p>
+                                <p class="card__item--cm">104 см</p>
+                                <p class="card__item--watt">0-400 Вт</p>
+                                <p class="card__item--area">до 6 м²</p>
+                            </div>
+                            <div class="card__item card__item--center">
+                                <p class="card__item--name">Комфорт-150</p>
+                                <p class="card__item--cm">154 см</p>
+                                <p class="card__item--watt">0-400 Вт</p>
+                                <p class="card__item--area">до 8 м²</p>
+                            </div>
+                            <div class="card__item card__item--right">
+                                <p class="card__item--name">Комфорт-200</p>
+                                <p class="card__item--cm">204 см</p>
+                                <p class="card__item--watt">0-600 Вт</p>
+                                <p class="card__item--area">до 10 м²</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card card--second">
+                        <div class="card__wrap"><img src="img/catalog-item-2.png" alt="Картинка товара" width="293"></div>
+                        <h3 class="card--title">МЕГАДОР Проект</h3>
+                        <div class="card__icon">
+                            <div class="card__icon-color"></div>
+                            <div class="card__icon-ip"></div>
+                        </div>
+                        <p class="card--text-block">Разработаны специально для обогрева больших площадей производственных и коммерческих помещений. Несколько конвекторов объединяются в одну систему, которая регулируется одним термостатом.</p>
+                        <div class="card__list">
+                            <div class="card__item card__item--left">
+                                <p class="card__item--name">Проект-100</p>
+                                <p class="card__item--cm">104 см</p>
+                                <p class="card__item--watt">400 Вт</p>
+                                <p class="card__item--area">до 6 м²</p>
+                            </div>
+                            <div class="card__item card__item--center">
+                                <p class="card__item--name">Проект-150</p>
+                                <p class="card__item--cm">154 см</p>
+                                <p class="card__item--watt">400 Вт</p>
+                                <p class="card__item--area">до 8 м²</p>
+                            </div>
+                            <div class="card__item card__item--right">
+                                <p class="card__item--name">Проект-200</p>
+                                <p class="card__item--cm">204 см</p>
+                                <p class="card__item--watt">600 Вт</p>
+                                <p class="card__item--area">до 10 м²</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card card--third">
+                        <div class="card__wrap"><img src="img/catalog-item-3.png" alt="Картинка товара" width="400"></div>
+                        <h3 class="card--title">МЕГАДОР Универсальный</h3>
+                        <div class="card__icon">
+                            <div class="card__icon-color"></div>
+                            <div class="card__icon-ip"></div>
+                        </div>
+                        <p class="card--text-block">Тепличный обогреватель МЕГАДОР может быть использован как на небольших приусадебных участках, предбанниках, погребах, теплицах, фермерских хозяйствах, так и на крупных предприятиях.</p>
+                        <div class="card__list">
+                            <div class="card__item card__item--left">
+                                <p class="card__item--name">Тепличный-150</p>
+                                <p class="card__item--cm">154 см</p>
+                                <p class="card__item--watt">0-400 Вт</p>
+                                <p class="card__item--area">до 6 м²</p>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="card card--fourth">
+                        <div class="card__wrap"><img src="img/catalog-item-4.png" alt="Картинка товара" width="300"></div>
+                        <h3 class="card--title">МЕГАДОР Эконом</h3>
+                        <div class="card__icon">
+                            <div class="card__icon-color"></div>
+                            <div class="card__icon-ip"></div>
+                        </div>
+                        <p class="card--text-block">Один из самых недорогих обогревателей позволяет значительно экономить электроэнергию. Если вам не нужна функция плавной регулировки температуры и вы ищете надежный и недорогой вариант, плинтусный обогреватель МЕГАДОР Эконом, работающий в двух режимах: на 50% и 100% мощности — это то, что вам нужно!</p>
+                        <div class="card__list">
+                            <div class="card__item card__item--left">
+                                <p class="card__item--name">Эконом-100</p>
+                                <p class="card__item--cm">104 см</p>
+                                <p class="card__item--watt">200/400 Вт</p>
+                                <p class="card__item--area">до 6 м²</p>
+                            </div>
+                            <div class="card__item card__item--center">
+                                <p class="card__item--name">Эконом-150</p>
+                                <p class="card__item--cm">154 см</p>
+                                <p class="card__item--watt">200/400 Вт</p>
+                                <p class="card__item--area">до 8 м²</p>
+                            </div>
+                            <div class="card__item card__item--right">
+                                <p class="card__item--name">Эконом-200</p>
+                                <p class="card__item--cm">204 см</p>
+                                <p class="card__item--watt">300/600 Вт</p>
+                                <p class="card__item--area">до 10 м²</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="contacts" class="contacts clearfix">
+            <div class="container">
+                <h2 class="main-title">Мегадор</h2>
+                <div class="contacts__block contacts__block--left">
+                    <div class="contacts--circle contacts--circle-left">Опт</div>
+                    <div class="contacts__header">
+                        <h3 class="contacts__header--title">Стать партнером</h3>
+                        <p class="contacts__header--tel">8-800-100-40-28</p>
+                    </div>
+                    <!-- Первая форма обратной связи - для ОПТ-->
+                    <form method="get" name="form-2">
+                        <div class="contacts__feedback    input-prepend">
+                            <input id="feedback-name-left" class="contacts__feedback--input  input-medium focused" name="name" type="text" placeholder="Ваше имя" required="">
+                            <input id="feedback-mail-left" class="contacts__feedback--input  input-medium focused" name="tell" type="text" placeholder="Телефон / e-mail" required="">
+                            <textarea id="feedback-text-left" class=" contacts__feedback--textarea  input-medium focused" name="text" rows="6" placeholder="Сообщение" required=""></textarea>
+                            <input id="feedback-toggle-left" class="contacts__feedback--toggle" type="checkbox" value="да" name="checkbox">
+                            <label class="feedback--label" for="feedback-toggle-left">
+                        <span class="contacts__feedback--text">Я согласен на обработку персональных данных</span>
+                        </label>
+                            <button class="feedback contacts__feedback-btn-send" name="send" type="button" value="Тест формы !">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- Первая форма обратной связи - для Розница-->
+                <div class="contacts__block contacts__block--right">
+                    <div class="contacts--circle contacts--circle-right">Розница</div>
+                    <div class="contacts__header">
+                        <h3 class="contacts__header--title">Частным клиентам</h3>
+                        <p class="contacts__header--tel">8-800-500-12-48</p>
+                    </div>
+                    <form method="get" name="form-3">
+                        <div class="contacts__feedback    input-prepend">
+                            <input id="feedback-name-right" class="contacts__feedback--input  input-medium focused" name="name" type="text" placeholder="Ваше имя" required="">
+                            <input id="feedback-mail-right" class="contacts__feedback--input  input-medium focused" name="tell" type="text" placeholder="Телефон / e-mail" required="">
+                            <textarea id="feedback-text-right" class=" contacts__feedback--textarea  input-medium focused" name="text" rows="6" placeholder="Сообщение" required=""></textarea>
+                            <input id="feedback-toggle-right" class="contacts__feedback--toggle" type="checkbox" value="да" name="checkbox">
+                            <label class="feedback--label" for="feedback-toggle-right">
+                        <span class="contacts__feedback--text">Я согласен на обработку персональных данных</span>
+                        </label>
+                            <button class="feedback contacts__feedback-btn-send" name="send" type="button" value="Тест формы !">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="about clearfix">
+            <div class="container">
+                <div class="about__info">
+                    <h2 class="main-title">О компании</h2>
+                    <p class="about__info--main-text">Научно-производственная компания МЕГАДОР, основанная в 2004 году – лидер на рынке энергосберегающих обогревателей и систем отопления в России, предлагающий экономичные решения для отопления жилых, промышленных и коммерческих помещений.</p>
+                    <p class="about__info--text-block">Инновационные разработки направлены на внедрение экологичных технологий в повседневное использование. Научные разработки и современные технологии производства позволяют создавать самые оптимальные решения для создания комфортной среды в помещениях любого типа.</p>
+                    <p class="about__info--text-block">Основным направлением деятельности компании является производство энергосберегающих электрических обогревателей для жилых, коммерческих и промышленных помещений. Продукция имеет необходимые сертификаты.</p>
+                    <p class="about__info--text-block">Миссия научно-производственной компании «МЕГАДОР» - разрабатывать и производить самые передовые продукты в области энергосберегающего отопления, позволяющие клиентам – создавать на своих объектах комфортное и экономичное тепло, партнерам – строить долгосрочные, надежные и открытые отношения, персоналу – постоянно развиваться, создавая сильную команду для покорения новых вершин, инвесторам – иметь материальные дивиденды в быстроразвивающейся технологической компании.</p>
+                </div>
+                <div class="about__specification">
+                    <a class="image-popup-vertical-fit" href="img/patent.jpg">
+	                    <img src="img/patent.jpg" width="370" alt="Патент">
+                    </a>
+                    <a href="upload/Presentation.pdf" class="about--btn-pdf">Скачать презентацию</a>
+                </div>
+                <div class="about__certificate">
+                    <h3 class="title">Сертификаты</h3>
+                    <div class="popup-gallery">
+                        <a href="img/certificate-1.jpg" title="Сертификат"><img src="img/certificate-min-1.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-2.jpg" title="Сертификат"><img src="img/certificate-min-2.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-1.jpg" title="Сертификат"><img src="img/certificate-min-1.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-2.jpg" title="Сертификат"><img src="img/certificate-min-2.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-1.jpg" title="Сертификат"><img src="img/certificate-min-1.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-2.jpg" title="Сертификат"><img src="img/certificate-min-2.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-1.jpg" title="Сертификат"><img src="img/certificate-min-1.jpg" width="129" alt="Сертификат"></a>
+                        <a href="img/certificate-1.jpg" title="Сертификат"><img src="img/certificate-min-1.jpg" width="129" alt="Сертификат"></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer clearfix">
+        <div class="container">
+            <div class="footer__site-master">
+                <a href="http://site-master.su/"><img src="img/logo-site-master.svg" width="73" height="44" alt="site-master">Создание и поддержка</a>
+            </div>
+            <div class="footer--megador">
+                <p>© 2018 «Мегадор»</p>
+            </div>
+            <p class="footer--old">Перейти к старой версии сайта <a href="http://megador.ru">www.megador.ru</a></p>
+        </div>
+    </footer>
+    <div>
+    </div>
+    <!--  jquery.min.js 1.9.1 -->
+    <script src="js/jquery.min.js"></script>
+
+    <!--    Обратная связь      -->
+    <link rel="stylesheet" type="text/css" href="css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.jgrowl.css">
+
+    <script src="feedback/js/feedback.js"></script>
+    <script src="feedback/js/jquery.arcticmodal.js"></script>
+    <script src="feedback/js/jquery.jgrowl.js"></script>
+
+    <!--Попап-->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+
+</body>
+</html>
